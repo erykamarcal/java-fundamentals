@@ -17,7 +17,6 @@ public class NumerosPares {
                 qtdPares++;
             }
         }
-
         for (int numero : vetorDeNumeros) {
             if (numero % 2 == 0) {
                 System.out.print(numero + " ");
