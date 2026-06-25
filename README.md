@@ -8,7 +8,7 @@ Desenvolver uma base sólida em Java através da prática de exercícios, desafi
 
 ## Estudando Atualmente
 
-* Matrizes
+* Métodos (Funções)
 
 ---
 
@@ -17,7 +17,7 @@ Desenvolver uma base sólida em Java através da prática de exercícios, desafi
 ### Fundamentos
 
 * [x] Arrays
-* [ ] Matrizes
+* [x] Matrizes
 * [ ] Métodos
 
 ### Programação Orientada a Objetos
