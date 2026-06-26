@@ -8,7 +8,7 @@ Desenvolver uma base sólida em Java através da prática de exercícios, desafi
 
 ## Estudando Atualmente
 
-* Classes e Objetos
+* Construtores, this e Encapsulamento
 
 ---
 
@@ -22,7 +22,7 @@ Desenvolver uma base sólida em Java através da prática de exercícios, desafi
 
 ### Programação Orientada a Objetos
 
-* [ ] Classes e Objetos
+* [x] Classes e Objetos
 * [ ] Construtores
 * [ ] Encapsulamento
 * [ ] Sobrecarga
