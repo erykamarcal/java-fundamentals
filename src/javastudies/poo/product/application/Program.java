@@ -10,7 +10,7 @@ public class Program {
 
         System.out.println("Enter the product data: ");
         System.out.print("Name:");
-        String name = scanner.nextLine();
+        String name = scanner.next();
         System.out.print("Price:");
         double price = scanner.nextDouble();
         System.out.print("Quantity:");
