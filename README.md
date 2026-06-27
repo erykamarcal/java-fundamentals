@@ -23,9 +23,9 @@ Desenvolver uma base sólida em Java através da prática de exercícios, desafi
 ### Programação Orientada a Objetos
 
 * [x] Classes e Objetos
-* [ ] Construtores
-* [ ] Encapsulamento
-* [ ] Sobrecarga
+* [x] Construtores
+* [x] Encapsulamento
+* [x] Sobrecarga
 * [ ] This
 * [ ] Membros Estáticos
 
