@@ -26,8 +26,8 @@ Desenvolver uma base sólida em Java através da prática de exercícios, desafi
 * [x] Construtores
 * [x] Encapsulamento
 * [x] Sobrecarga
-* [ ] This
-* [ ] Membros Estáticos
+* [x] This
+* [x] Membros Estáticos
 
 ### Estruturas de Dados
 
