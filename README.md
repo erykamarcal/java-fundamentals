@@ -8,8 +8,7 @@ Desenvolver uma base sólida em Java através da prática de exercícios, desafi
 
 ## Estudando Atualmente
 
-* Construtores, this e Encapsulamento
-
+* Vetores de objeto
 ---
 
 ## Roadmap de Estudos
@@ -23,11 +22,11 @@ Desenvolver uma base sólida em Java através da prática de exercícios, desafi
 ### Programação Orientada a Objetos
 
 * [x] Classes e Objetos
-* [ ] Construtores
-* [ ] Encapsulamento
-* [ ] Sobrecarga
-* [ ] This
-* [ ] Membros Estáticos
+* [x] Construtores
+* [x] Encapsulamento
+* [x] Sobrecarga
+* [x] This
+* [x] Membros Estáticos
 
 ### Estruturas de Dados
 
