@@ -8,8 +8,7 @@ Desenvolver uma base sólida em Java através da prática de exercícios, desafi
 
 ## Estudando Atualmente
 
-* Construtores, this e Encapsulamento
-
+* Vetores de objeto
 ---
 
 ## Roadmap de Estudos
