@@ -8,7 +8,7 @@ Desenvolver uma base sólida em Java através da prática de exercícios, desafi
 
 ## Estudando Atualmente
 
-* Vetores de objeto
+* Listas
 ---
 
 ## Roadmap de Estudos
@@ -30,7 +30,7 @@ Desenvolver uma base sólida em Java através da prática de exercícios, desafi
 
 ### Estruturas de Dados
 
-* [ ] Vetores de Objetos
+* [x] Vetores de Objetos
 * [ ] Listas
 
 ### Herança e Polimorfismo
