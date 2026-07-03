@@ -33,12 +33,16 @@ Desenvolver uma base sólida em Java através da prática de exercícios, desafi
 * [x] Vetores de Objetos
 * [ ] Listas
 
+### Recursos da Linguagem Java
+
+* [ ] Enum
+* [ ] API de Data e Hora (java.time)
+
 ### Herança e Polimorfismo
 
 * [ ] Herança
 * [ ] Polimorfismo
 * [ ] Classes Abstratas
-* [ ] Interfaces
 
 ### Tratamento de Exceções
 
@@ -49,6 +53,10 @@ Desenvolver uma base sólida em Java através da prática de exercícios, desafi
 
 * [ ] Leitura de Arquivos
 * [ ] Escrita de Arquivos
+
+### Interfaces
+
+* [ ] Interfaces
 
 ### Generics e Coleções
 
