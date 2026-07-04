@@ -8,7 +8,7 @@ Desenvolver uma base sólida em Java através da prática de exercícios, desafi
 
 ## Estudando Atualmente
 
-* Listas
+* Recursos da Linguagem Java: API (`java.time`)
 ---
 
 ## Roadmap de Estudos
@@ -31,7 +31,7 @@ Desenvolver uma base sólida em Java através da prática de exercícios, desafi
 ### Estruturas de Dados
 
 * [x] Vetores de Objetos
-* [ ] Listas
+* [x] Listas
 
 ### Recursos da Linguagem Java
 
