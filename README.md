@@ -8,7 +8,7 @@ Desenvolver uma base sólida em Java através da prática de exercícios, desafi
 
 ## Estudando Atualmente
 
-* Recursos da Linguagem Java: API (`java.time`)
+* Recursos da Linguagem Java: enumerações e composições
 ---
 
 ## Roadmap de Estudos
@@ -36,7 +36,7 @@ Desenvolver uma base sólida em Java através da prática de exercícios, desafi
 ### Recursos da Linguagem Java
 
 * [ ] Enum
-* [ ] API de Data e Hora (java.time)
+* [x] API de Data e Hora (java.time)
 
 ### Herança e Polimorfismo
 
