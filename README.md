@@ -8,7 +8,7 @@ Desenvolver uma base sólida em Java através da prática de exercícios, desafi
 
 ## Estudando Atualmente
 
-* Recursos da Linguagem Java: enumerações e composições
+* Herança e Polimorfismo
 ---
 
 ## Roadmap de Estudos
@@ -35,7 +35,7 @@ Desenvolver uma base sólida em Java através da prática de exercícios, desafi
 
 ### Recursos da Linguagem Java
 
-* [ ] Enum
+* [x] Enum
 * [x] API de Data e Hora (java.time)
 
 ### Herança e Polimorfismo
