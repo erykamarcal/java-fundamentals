@@ -1,13 +1,13 @@
 package javastudies.poo.inheritance.bankAccount.entities;
 
-public class savingsAccount extends Account{
+public class SavingsAccount extends Account{
     private Double interestRate;
 
-    public savingsAccount(){
+    public SavingsAccount(){
 
     }
 
-    public savingsAccount(Integer number, String holder, Double balance, Double interestRate) {
+    public SavingsAccount(Integer number, String holder, Double balance, Double interestRate) {
         super(number, holder, balance);
         this.interestRate = interestRate;
     }
@@ -22,5 +22,10 @@ public class savingsAccount extends Account{
 
     public void updateBalance() {
         balance += balance * interestRate;
+    }
+
+    @Override
+    public void withdraw(double amount) {
+        balance -= amount + 5.0;
     }
 }
