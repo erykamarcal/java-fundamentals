@@ -1,4 +1,4 @@
-package javastudies.poo.inheritance.polymorphism.employeePayment.entitites;
+package javastudies.poo.polymorphism.employeePayment.entitites;
 
 public class Employee {
     private String name;

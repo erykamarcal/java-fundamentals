@@ -1,7 +1,7 @@
-package javastudies.poo.inheritance.polymorphism.employeePayment.application;
+package javastudies.poo.polymorphism.employeePayment.application;
 
-import javastudies.poo.inheritance.polymorphism.employeePayment.entitites.Employee;
-import javastudies.poo.inheritance.polymorphism.employeePayment.entitites.OutsourcedEmployee;
+import javastudies.poo.polymorphism.employeePayment.entitites.Employee;
+import javastudies.poo.polymorphism.employeePayment.entitites.OutsourcedEmployee;
 
 import java.util.ArrayList;
 import java.util.List;
