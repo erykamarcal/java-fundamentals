@@ -8,7 +8,7 @@ Desenvolver uma base sólida em Java através da prática de exercícios, desafi
 
 ## Estudando Atualmente
 
-* Classes Abstratas
+* Tratamento de Exceções
 ---
 
 ## Roadmap de Estudos
@@ -42,7 +42,7 @@ Desenvolver uma base sólida em Java através da prática de exercícios, desafi
 
 * [x] Herança
 * [x] Polimorfismo
-* [ ] Classes Abstratas
+* [x] Classes Abstratas
 
 ### Tratamento de Exceções
 
