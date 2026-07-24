@@ -8,7 +8,7 @@ Desenvolver uma base sólida em Java através da prática de exercícios, desafi
 
 ## Estudando Atualmente
 
-* Tratamento de Exceções
+* Manipulação de Arquivos (Java I/O)
 ---
 
 ## Roadmap de Estudos
@@ -46,12 +46,12 @@ Desenvolver uma base sólida em Java através da prática de exercícios, desafi
 
 ### Tratamento de Exceções
 
-* [ ] Try / Catch
-* [ ] Exceções Personalizadas
+* [x] Try / Catch
+* [x] Exceções Personalizadas
 
 ### Arquivos
 
-* [ ] Leitura de Arquivos
+* [x] Leitura de Arquivos
 * [ ] Escrita de Arquivos
 
 ### Interfaces
