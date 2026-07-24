@@ -15,7 +15,7 @@ public class Program {
 
             String line = bufferedReader.readLine();
 
-            while (line != null){
+            while (line != null) {
                 String[] fields = line.split(",");
 
                 double price = Double.parseDouble(fields[1]);
@@ -25,9 +25,9 @@ public class Program {
 
                 line = bufferedReader.readLine();
 
-                }
+            }
 
-        } catch (IOException e){
+        } catch (IOException e) {
             System.out.println("Error: " + e.getMessage());
         }
 
@@ -35,11 +35,32 @@ public class Program {
             System.out.println(prod);
         }
 
-        double total = 0.0;
+        double totalValueInStock = 0.0;
 
         for (Product product : products) {
-            total += product.getPrice();
+            totalValueInStock += product.getPrice();
         }
-        System.out.printf("Total Value In Stock: R$ %.2f", total);
+        System.out.printf("Total Value In Stock: R$ %.2f", totalValueInStock);
+
+        File outputFile = new File("resources/output.txt");
+
+        try (BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(outputFile))) {
+            bufferedWriter.write("PRODUCT REPORT");
+            bufferedWriter.newLine();
+            bufferedWriter.newLine();
+
+            for (Product product : products) {
+                bufferedWriter.write(product.toString());
+                bufferedWriter.newLine();
+            }
+
+            bufferedWriter.write("-------------------------");
+            bufferedWriter.newLine();
+            bufferedWriter.write(String.format("Total Value In Stock: %.2f", totalValueInStock));
+
+        } catch (IOException e) {
+            System.out.println("Error: " + e.getMessage());
+
+        }
     }
 }

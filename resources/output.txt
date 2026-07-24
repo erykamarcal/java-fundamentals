@@ -1,0 +1,8 @@
+PRODUCT REPORT
+
+Name: Notebook, Price: 3500,00
+Name: Mouse, Price: 120,50
+Name: Keyboard, Price: 220,00
+Name: Monitor, Price: 980,90
+-------------------------
+Total Value In Stock: 4821,40
