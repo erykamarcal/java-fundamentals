@@ -1,0 +1,4 @@
+Notebook,3500.00
+Mouse,120.50
+Keyboard,220.00
+Monitor,980.90
