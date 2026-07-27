@@ -8,7 +8,7 @@ Desenvolver uma base sólida em Java através da prática de exercícios, desafi
 
 ## Estudando Atualmente
 
-* Manipulação de Arquivos (Java I/O)
+* Interfaces
 ---
 
 ## Roadmap de Estudos
@@ -52,7 +52,7 @@ Desenvolver uma base sólida em Java através da prática de exercícios, desafi
 ### Arquivos
 
 * [x] Leitura de Arquivos
-* [ ] Escrita de Arquivos
+* [x] Escrita de Arquivos
 
 ### Interfaces
 
