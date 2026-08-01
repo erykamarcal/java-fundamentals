@@ -2,7 +2,7 @@ package javastudies.poo.abstractClasses.shapeAreas.entities;
 
 import javastudies.poo.abstractClasses.shapeAreas.entities.enums.Color;
 
-public class Rectangle extends Shape{
+public class Rectangle extends AbstractShape {
     private Double width;
     private Double height;
 
@@ -33,7 +33,7 @@ public class Rectangle extends Shape{
     }
 
     @Override
-    public Double area(){
+    public double area(){
         return width * height;
     }
 

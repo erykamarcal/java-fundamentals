@@ -2,7 +2,7 @@ package javastudies.poo.abstractClasses.shapeAreas.application;
 
 import javastudies.poo.abstractClasses.shapeAreas.entities.Circle;
 import javastudies.poo.abstractClasses.shapeAreas.entities.Rectangle;
-import javastudies.poo.abstractClasses.shapeAreas.entities.Shape;
+import javastudies.poo.abstractClasses.shapeAreas.entities.AbstractShape;
 import javastudies.poo.abstractClasses.shapeAreas.entities.enums.Color;
 
 import java.util.ArrayList;
@@ -13,7 +13,7 @@ public class Program {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        List<Shape> shapes = new ArrayList<>();
+        List<AbstractShape> shapes = new ArrayList<>();
 
         System.out.print("Enter the number of shapes: ");
         int shapesCount = scanner.nextInt();
@@ -41,7 +41,7 @@ public class Program {
         }
         System.out.println();
         System.out.println("SHAPE AREAS: ");
-        for (Shape sh : shapes){
+        for (AbstractShape sh : shapes){
             System.out.println(sh);
         }
         scanner.close();

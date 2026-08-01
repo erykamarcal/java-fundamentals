@@ -2,7 +2,7 @@ package javastudies.poo.abstractClasses.shapeAreas.entities;
 
 import javastudies.poo.abstractClasses.shapeAreas.entities.enums.Color;
 
-public class Circle extends Shape {
+public class Circle extends AbstractShape {
     private Double radius;
 
     public Circle() {
@@ -23,7 +23,7 @@ public class Circle extends Shape {
     }
 
     @Override
-    public Double area() {
+    public double area() {
         return Math.PI * radius * radius;
     }
 
