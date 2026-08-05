@@ -56,12 +56,12 @@ Desenvolver uma base sólida em Java através da prática de exercícios, desafi
 
 ### Interfaces
 
-* [ ] Interfaces
+* [x] Interfaces
 
 ### Generics e Coleções
 
-* [ ] Generics
-* [ ] Set
+* [x] Generics
+* [x] Set
 * [ ] Map
 
 ### Programação Funcional
