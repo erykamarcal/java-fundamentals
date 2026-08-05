@@ -8,7 +8,7 @@ Desenvolver uma base sólida em Java através da prática de exercícios, desafi
 
 ## Estudando Atualmente
 
-* Interfaces
+* Generics, Set e Map
 ---
 
 ## Roadmap de Estudos
