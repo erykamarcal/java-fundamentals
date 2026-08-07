@@ -8,7 +8,7 @@ Desenvolver uma base sólida em Java através da prática de exercícios, desafi
 
 ## Estudando Atualmente
 
-* Generics, Set e Map
+* Programação Funcional
 ---
 
 ## Roadmap de Estudos
@@ -62,7 +62,7 @@ Desenvolver uma base sólida em Java através da prática de exercícios, desafi
 
 * [x] Generics
 * [x] Set
-* [ ] Map
+* [x] Map
 
 ### Programação Funcional
 
