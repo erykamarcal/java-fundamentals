@@ -8,19 +8,35 @@ public class teste {
 
     public static void main(String[] args) {
 
-        Connection conn = null;
+        Connection connection = null;
+
+        String username = System.getenv("DB_USERNAME");
+        String password = System.getenv("DB_PASSWORD");
 
         try {
-            conn = DriverManager.getConnection(
+            connection = DriverManager.getConnection(
                     "jdbc:mysql://localhost:3306/coursejdbc",
-                    "root",
-                    "@Skywalker1977"
+                    username,
+                    password
             );
 
             System.out.println("Conectado ao banco!");
 
         } catch (SQLException e) {
             e.printStackTrace();
+        }
+
+        closeConnection(connection);
+    }
+
+    public static void closeConnection(Connection connection) {
+        if (connection != null) {
+            try {
+                connection.close();
+                System.out.println("Conexão fechada!");
+            } catch (SQLException e) {
+                e.printStackTrace() ;
+            }
         }
     }
 }
