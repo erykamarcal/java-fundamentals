@@ -1,4 +1,4 @@
-package javastudies.jdbc;
+package javastudies.jdbc.testeConexao;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
