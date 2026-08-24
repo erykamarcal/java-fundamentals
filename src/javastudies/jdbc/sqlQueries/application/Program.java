@@ -1,7 +1,6 @@
 package javastudies.jdbc.sqlQueries.application;
 
 import javastudies.jdbc.sqlQueries.db.DB;
-import javastudies.jdbc.sqlQueries.db.DbException;
 
 import java.sql.Connection;
 import java.sql.ResultSet;
@@ -16,15 +15,19 @@ public class Program {
         ResultSet resultSet = null;
 
         try {
-          connection = DB.getConnection();
-          statement = connection.createStatement();
-          resultSet = statement.executeQuery("select * from department");
+            connection = DB.getConnection();
+            statement = connection.createStatement();
+            resultSet = statement.executeQuery("select * from department");
 
-          while (resultSet.next()){
-              System.out.println(resultSet.getInt("Id") + ", " + resultSet.getString("Name"));
-          }
+            while (resultSet.next()) {
+                System.out.println(resultSet.getInt("Id") + ", " + resultSet.getString("Name"));
+            }
         } catch (SQLException e) {
             e.printStackTrace();
+        } finally {
+            DB.closeResultSet(resultSet);
+            DB.closeStatement(statement);
+            DB.closeConnection();
         }
 
     }

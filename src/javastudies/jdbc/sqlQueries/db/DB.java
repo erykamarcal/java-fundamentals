@@ -48,7 +48,7 @@ public class DB {
             try {
                 statement.close();
             } catch (SQLException e) {
-                throw new RuntimeException(e);
+                throw new DbException(e.getMessage());
             }
         }
     }
@@ -59,7 +59,7 @@ public class DB {
             try {
                 resultSet.close();
             } catch (SQLException e) {
-                throw new RuntimeException(e);
+                throw new DbException(e.getMessage());
             }
         }
     }
