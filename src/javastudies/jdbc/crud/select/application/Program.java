@@ -1,6 +1,6 @@
-package javastudies.jdbc.sqlQueries.application;
+package javastudies.jdbc.crud.select.application;
 
-import javastudies.jdbc.sqlQueries.db.DB;
+import javastudies.jdbc.crud.select.db.DB;
 
 import java.sql.Connection;
 import java.sql.ResultSet;
@@ -29,6 +29,5 @@ public class Program {
             DB.closeStatement(statement);
             DB.closeConnection();
         }
-
     }
 }
