@@ -2,9 +2,7 @@ package javastudies.jdbc.crud.insert.application;
 
 import javastudies.jdbc.crud.insert.db2.DB2;
 
-import java.sql.Connection;
-import java.sql.PreparedStatement;
-import java.sql.SQLException;
+import java.sql.*;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 
@@ -23,7 +21,9 @@ public class Program {
                     "INSERT INTO seller "
                             + "(Name, Email, BirthDate, BaseSalary, DepartmentId) "
                             + "VALUES "
-                            + "(?,?,?,?,?)");
+                            + "(?,?,?,?,?)",
+                    Statement.RETURN_GENERATED_KEYS);
+            ;
 
             preparedStatement.setString(1, "Ana Maria Braga");
             preparedStatement.setString(2, "anamaria@gmail.com");
@@ -34,7 +34,16 @@ public class Program {
 
             int rowsAffected = preparedStatement.executeUpdate();
 
-            System.out.println("Done! Rows Affected: " + rowsAffected);
+            if (rowsAffected > 0) {
+                ResultSet resultSet = preparedStatement.getGeneratedKeys();
+                while (resultSet.next()) {
+                    int id = resultSet.getInt(1);
+                    System.out.println("Done! Id: " + id);
+                }
+            }
+            else {
+                System.out.println("No rows affected!");
+            }
 
         } catch (SQLException e){
             e.printStackTrace();
