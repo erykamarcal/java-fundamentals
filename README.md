@@ -8,7 +8,7 @@ Desenvolver uma base sólida em Java através da prática de exercícios, desafi
 
 ## Estudando Atualmente
 
-* Programação Funcional
+* JDBC
 ---
 
 ## Roadmap de Estudos
@@ -66,8 +66,8 @@ Desenvolver uma base sólida em Java através da prática de exercícios, desafi
 
 ### Programação Funcional
 
-* [ ] Expressões Lambda
-* [ ] Stream API
+* [x] Expressões Lambda
+* [x] Stream API
 
 ### Banco de Dados
 
