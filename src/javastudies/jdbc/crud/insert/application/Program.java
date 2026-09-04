@@ -13,6 +13,7 @@ public class Program {
 
         Connection connection = null;
         PreparedStatement preparedStatement = null;
+        ResultSet resultSet = null;
 
         try {
             connection = DB.getConnection();
@@ -35,7 +36,7 @@ public class Program {
             int rowsAffected = preparedStatement.executeUpdate();
 
             if (rowsAffected > 0) {
-                ResultSet resultSet = preparedStatement.getGeneratedKeys();
+                resultSet = preparedStatement.getGeneratedKeys();
                 while (resultSet.next()) {
                     int id = resultSet.getInt(1);
                     System.out.println("Done! Id: " + id);
@@ -49,6 +50,7 @@ public class Program {
             e.printStackTrace();
         }
         finally {
+            DB.closeResultSet(resultSet);
             DB.closeStatement(preparedStatement);
             DB.closeConnection();
         }
