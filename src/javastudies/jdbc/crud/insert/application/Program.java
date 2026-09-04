@@ -1,6 +1,6 @@
 package javastudies.jdbc.crud.insert.application;
 
-import javastudies.jdbc.crud.insert.db2.DB2;
+import javastudies.jdbc.crud.db.DB;
 
 import java.sql.*;
 import java.time.LocalDate;
@@ -15,7 +15,7 @@ public class Program {
         PreparedStatement preparedStatement = null;
 
         try {
-            connection = DB2.getConnection();
+            connection = DB.getConnection();
 
             preparedStatement = connection.prepareStatement(
                     "INSERT INTO seller "
@@ -49,8 +49,8 @@ public class Program {
             e.printStackTrace();
         }
         finally {
-            DB2.closeStatement(preparedStatement);
-            DB2.closeConnection();
+            DB.closeStatement(preparedStatement);
+            DB.closeConnection();
         }
     }
 }

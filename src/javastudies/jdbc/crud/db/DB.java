@@ -1,4 +1,4 @@
-package javastudies.jdbc.crud.select.db;
+package javastudies.jdbc.crud.db;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

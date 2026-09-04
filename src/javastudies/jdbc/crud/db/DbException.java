@@ -1,4 +1,4 @@
-package javastudies.jdbc.crud.select.db;
+package javastudies.jdbc.crud.db;
 
 public class DbException extends RuntimeException {
     public DbException(String message) {

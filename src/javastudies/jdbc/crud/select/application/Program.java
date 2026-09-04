@@ -1,6 +1,6 @@
 package javastudies.jdbc.crud.select.application;
 
-import javastudies.jdbc.crud.select.db.DB;
+import javastudies.jdbc.crud.db.DB;
 
 import java.sql.Connection;
 import java.sql.ResultSet;
