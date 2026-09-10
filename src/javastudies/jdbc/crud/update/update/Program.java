@@ -1,4 +1,4 @@
-package javastudies.jdbc.crud.update;
+package javastudies.jdbc.crud.update.update;
 
 import javastudies.jdbc.crud.db.DB;
 
