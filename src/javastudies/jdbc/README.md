@@ -110,6 +110,38 @@ preparedStatement.setDouble(4, 5000.0);
 preparedStatement.setInt(5, 4);
 ```
 
+
+## Transactions
+
+Permite executar várias operações como uma única unidade de trabalho.
+
+O AutoCommit é desativado para controlar manualmente a transação:
+
+```connection.setAutoCommit(false);```
+
+Se todas as operações forem executadas corretamente:
+
+```connection.commit();```
+
+Em caso de erro:
+
+```connection.rollback();```
+
+## Fluxo:
+
+```
+Início da transação
+↓
+Operação 1
+↓
+Operação 2
+↓
+┌────┴────┐
+Sucesso    Erro
+↓          ↓
+commit    rollback 
+```
+
 ## Generated Keys
 
 Para recuperar um ID gerado automaticamente:
@@ -135,16 +167,17 @@ SQL
     ↓
 Execução
     ↓
-ResultSet
+ResultSet ou rowsAffected
     ↓
 Processamento
     ↓
 Fechamento dos recursos
+
 ```
 
 ## Próximos estudos
 
-* [ ] UPDATE
-* [ ] DELETE
-* [ ] CRUD completo
+* [x] UPDATE
+* [x] DELETE
+* [x] CRUD completo
 * [ ] DAO
